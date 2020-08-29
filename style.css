@@ -1,0 +1,170 @@
+
+body{
+  margin: 0;
+  font-family: 'Roboto Slab', serif;
+  text-transform: capitalize;
+  letter-spacing: .09vh;
+}
+html{
+  scroll-behavior: smooth;
+ 
+
+
+  
+}
+
+h1{
+  font-size: 50px;
+}
+.name-highlight{
+  color: orangered;
+}
+.half-width{
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  padding-left: 2%;
+}
+.half-width img{
+  width: 100%;
+}
+.top{
+  background-color: papayawhip;
+}
+.top-banner{
+  background-image: url(images/top-banner.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+
+}
+.background{
+  background-image: url(images/back.jpg);
+}
+section{
+  height: 620px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top:100px ;
+  
+}
+#btn{
+text-decoration: none;
+background-image: linear-gradient(45deg, lightsalmon, tomato);
+padding: 10px 20px;
+border-radius: 5px;
+color: white;
+
+
+}
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #3578E5;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+ 
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 60px;
+  text-decoration: none;
+}
+
+
+
+.bottom{
+  padding-top: 75px;
+}
+
+.one-forth{
+  width: 30%;
+  height: 250px;
+  float: left;
+  margin-left:30px ;
+  margin-bottom: 80px;
+  text-align: center;
+  box-shadow: 5px 5px 10px grey;
+}
+
+
+
+#sent{
+  text-decoration: none;
+  background-image: linear-gradient(45deg, lightsalmon, tomato);
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  width: 200px;
+  cursor: pointer;
+}
+
+
+#icon{
+  font-size: 40px;
+  background-color: orangered;
+  color: white;
+  width: 60px;
+  height: 50px;
+  text-align: center;
+  padding-top: 10px; 
+  border-radius:60px;
+ 
+
+}
+#icon:hover{
+  background-color: white;
+  color: orangered;
+  font-size: 50px;
+  
+}
+h2:hover{
+ color:orangered;
+  
+}
+.half{
+  width: 45%;
+  height: 400px;
+  float: left;
+  text-align: center;
+ font-size: 16px;
+ border-radius: 15px;
+ box-shadow: 5px 5px 10px rgb(0, 16, 236);
+ margin-left: 50px;
+ 
+
+}
+
+
+#contact{
+  background-color: hsla(0, 0%, 100%, 0);
+  color:orchid;
+  text-align: center;
+}
+.logo{
+  background-color: indigo;
+  color: white;
+  font-size: 30px;
+  border-radius:100%;
+  height: 20px;
+}
+.footer{
+  background-color: #3578E5;
+  text-align: center;
+  height: 50px;
+  padding-top: 5px;
+  
+}
